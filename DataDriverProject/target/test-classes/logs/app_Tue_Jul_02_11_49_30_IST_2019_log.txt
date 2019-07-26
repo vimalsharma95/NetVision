@@ -1,0 +1,11 @@
+INFO    2019-07-02 11:49:30,224 [main] base.BaseTest  - config file loaded
+INFO    2019-07-02 11:49:30,226 [main] base.BaseTest  - OR file loaded
+INFO    2019-07-02 11:49:36,166 [main] base.BaseTest  - chrome browser launched
+INFO    2019-07-02 11:49:40,624 [main] base.BaseTest  - navigating to ---https://10.20.0.57:4444/ProductUI/#/login
+INFO    2019-07-02 11:49:40,923 [main] base.BaseTest  - typing in element ------id_XPATHentered value ------guest
+INFO    2019-07-02 11:49:40,924 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[2]/input
+INFO    2019-07-02 11:49:41,047 [main] base.BaseTest  - typing in element ------pwd_XPATHentered value ------guest
+INFO    2019-07-02 11:49:41,048 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[3]/input
+INFO    2019-07-02 11:49:41,169 [main] base.BaseTest  - clicking on element------loginbutton_ID
+INFO    2019-07-02 11:49:41,169 [main] base.BaseTest  - clicking on ---login-button
+INFO    2019-07-02 11:49:47,106 [main] base.BaseTest  - test execution completed

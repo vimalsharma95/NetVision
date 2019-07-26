@@ -1,0 +1,3 @@
+INFO    2019-07-06 23:10:55,282 [main] base.BaseTest  - config file loaded
+INFO    2019-07-06 23:10:55,324 [main] base.BaseTest  - OR file loaded
+INFO    2019-07-06 23:11:24,918 [main] base.BaseTest  - chrome browser launched

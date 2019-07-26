@@ -1,0 +1,40 @@
+INFO    2019-07-09 15:11:22,466 [main] base.BaseTest  - config file loaded
+INFO    2019-07-09 15:11:22,468 [main] base.BaseTest  - OR file loaded
+INFO    2019-07-09 15:11:29,050 [main] base.BaseTest  - chrome browser launched
+INFO    2019-07-09 15:11:34,146 [main] base.BaseTest  - navigating to ---http://10.20.0.58:8005/ProductUI/#/login
+INFO    2019-07-09 15:11:34,376 [main] base.BaseTest  - typing in element ------id_XPATHentered value ------guest
+INFO    2019-07-09 15:11:34,376 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[2]/input
+INFO    2019-07-09 15:11:34,495 [main] base.BaseTest  - typing in element ------pwd_XPATHentered value ------guest
+INFO    2019-07-09 15:11:34,495 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[3]/input
+INFO    2019-07-09 15:11:34,637 [main] base.BaseTest  - clicking on element------loginbutton_ID
+INFO    2019-07-09 15:11:34,638 [main] base.BaseTest  - clicking on ---login-button
+INFO    2019-07-09 15:11:39,794 [main] base.BaseTest  - clicking on element------view_CLASS
+INFO    2019-07-09 15:11:40,041 [main] base.BaseTest  - clicking on element------search_XPATH
+INFO    2019-07-09 15:11:40,042 [main] base.BaseTest  - clicked on search
+INFO    2019-07-09 15:11:43,976 [main] base.BaseTest  - clicking on element------TimeFilter_XPATH
+INFO    2019-07-09 15:11:44,627 [main] base.BaseTest  - typing in element ------fromcal_XPATHentered value ------fromdate
+INFO    2019-07-09 15:11:45,362 [main] base.BaseTest  - typing in element ------tocal_XPATHentered value ------todate
+INFO    2019-07-09 15:11:45,514 [main] base.BaseTest  - clicking on element------header_XPATH
+ERROR   2019-07-09 15:11:45,657 [main] base.BaseTest  - element click intercepted: Element <span class="ui-button-text ui-clickable">...</span> is not clickable at point (258, 220). Other element would receive the click: <div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all">...</div>
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T6DJMNG3', ip: '172.18.0.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\VIMAL~1.SHA\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53724}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 1be62ede1b35cf8233af554092199287
+INFO    2019-07-09 15:11:45,657 [main] base.BaseTest  - clicking on element------Done_XPATH
+ERROR   2019-07-09 15:12:06,096 [main] base.BaseTest  - Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="main-content"]/app-root/mat-sidenav-container/mat-sidenav-content/app-sessions/app-pagination/div/div[1] (tried for 20 second(s) with 500 milliseconds interval)
+ERROR   2019-07-09 15:12:06,113 [main] base.BaseTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="main-content"]/app-root/mat-sidenav-container/mat-sidenav-content/app-sessions/app-pagination/div/div[1]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T6DJMNG3', ip: '172.18.0.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\VIMAL~1.SHA\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53724}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 1be62ede1b35cf8233af554092199287
+*** Element info: {Using=xpath, value=//*[@id="main-content"]/app-root/mat-sidenav-container/mat-sidenav-content/app-sessions/app-pagination/div/div[1]}
+INFO    2019-07-09 15:12:06,982 [main] base.BaseTest  - test execution completed

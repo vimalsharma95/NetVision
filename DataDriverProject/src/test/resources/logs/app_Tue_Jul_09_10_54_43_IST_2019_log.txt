@@ -1,0 +1,46 @@
+INFO    2019-07-09 10:54:43,273 [main] base.BaseTest  - config file loaded
+INFO    2019-07-09 10:54:43,292 [main] base.BaseTest  - OR file loaded
+INFO    2019-07-09 10:54:53,215 [main] base.BaseTest  - chrome browser launched
+INFO    2019-07-09 10:55:00,315 [main] base.BaseTest  - navigating to ---http://10.20.0.58:8005/ProductUI/#/login
+INFO    2019-07-09 10:55:00,610 [main] base.BaseTest  - typing in element ------id_XPATHentered value ------guest
+INFO    2019-07-09 10:55:00,610 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[2]/input
+INFO    2019-07-09 10:55:00,812 [main] base.BaseTest  - typing in element ------pwd_XPATHentered value ------guest
+INFO    2019-07-09 10:55:00,812 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[3]/input
+INFO    2019-07-09 10:55:00,940 [main] base.BaseTest  - clicking on element------loginbutton_ID
+INFO    2019-07-09 10:55:00,940 [main] base.BaseTest  - clicking on ---login-button
+ERROR   2019-07-09 10:55:11,125 [main] base.BaseTest  - element click intercepted: Element <div _ngcontent-c12="" class="cav-main-left-menu-label">...</div> is not clickable at point (37, 68). Other element would receive the click: <div class="ui-widget-overlay ui-dialog-mask" style="z-index: 1000;"></div>
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T6DJMNG3', ip: '172.18.0.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\VIMAL~1.SHA\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55240}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 8b04233f9a5ea5d94e4e701c3c67c822
+INFO    2019-07-09 10:55:11,125 [main] base.BaseTest  - clicking on element------view_CLASS
+ERROR   2019-07-09 10:55:13,157 [main] base.BaseTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="cavsidebar"]/mat-sidenav/div/app-cav-main-common-menu-navignation/div/cav-main-common-nav-menu[1]/cavtieredmenu/div/cavtieredmenusub/ul/li[3]/a/span[2]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T6DJMNG3', ip: '172.18.0.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\VIMAL~1.SHA\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55240}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 8b04233f9a5ea5d94e4e701c3c67c822
+*** Element info: {Using=xpath, value=//*[@id="cavsidebar"]/mat-sidenav/div/app-cav-main-common-menu-navignation/div/cav-main-common-nav-menu[1]/cavtieredmenu/div/cavtieredmenusub/ul/li[3]/a/span[2]}
+INFO    2019-07-09 10:55:13,157 [main] base.BaseTest  - clicking on element------search_XPATH
+INFO    2019-07-09 10:55:13,158 [main] base.BaseTest  - clicked on search
+ERROR   2019-07-09 10:55:23,206 [main] base.BaseTest  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="timeFilterCriteria"]/span[2]"}
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T6DJMNG3', ip: '172.18.0.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\VIMAL~1.SHA\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55240}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: 8b04233f9a5ea5d94e4e701c3c67c822
+*** Element info: {Using=xpath, value=//*[@id="timeFilterCriteria"]/span[2]}
+INFO    2019-07-09 10:55:23,207 [main] base.BaseTest  - clicking on element------TimeFilter_XPATH
+INFO    2019-07-09 10:55:23,536 [main] base.BaseTest  - test execution completed

@@ -1,0 +1,25 @@
+INFO    2019-07-08 19:09:00,746 [main] base.BaseTest  - config file loaded
+INFO    2019-07-08 19:09:00,748 [main] base.BaseTest  - OR file loaded
+INFO    2019-07-08 19:09:07,949 [main] base.BaseTest  - chrome browser launched
+INFO    2019-07-08 19:09:16,269 [main] base.BaseTest  - navigating to ---http://10.20.0.58:8005/ProductUI/#/login
+INFO    2019-07-08 19:09:16,551 [main] base.BaseTest  - typing in element ------id_XPATHentered value ------guest
+INFO    2019-07-08 19:09:16,551 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[2]/input
+INFO    2019-07-08 19:09:16,680 [main] base.BaseTest  - typing in element ------pwd_XPATHentered value ------guest
+INFO    2019-07-08 19:09:16,680 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[3]/input
+INFO    2019-07-08 19:09:16,810 [main] base.BaseTest  - clicking on element------loginbutton_ID
+INFO    2019-07-08 19:09:16,811 [main] base.BaseTest  - clicking on ---login-button
+INFO    2019-07-08 19:09:27,069 [main] base.BaseTest  - clicking on element------view_CLASS
+INFO    2019-07-08 19:09:29,259 [main] base.BaseTest  - clicking on element------search_XPATH
+INFO    2019-07-08 19:09:29,259 [main] base.BaseTest  - clicked on search
+INFO    2019-07-08 19:09:39,450 [main] base.BaseTest  - clicking on element------TimeFilter_XPATH
+ERROR   2019-07-08 19:09:40,655 [main] base.BaseTest  - element click intercepted: Element <span class="ui-button-text ui-clickable">...</span> is not clickable at point (258, 220). Other element would receive the click: <span class="pi pi-chevron-left"></span>
+  (Session info: chrome=74.0.3729.169)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-T6DJMNG3', ip: '172.18.0.71', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\VIMAL~1.SHA\AppDat...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59595}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}
+Session ID: fa81b2f859f53f9497854da9cd4f9023
+INFO    2019-07-08 19:09:40,655 [main] base.BaseTest  - clicking on element------Done_XPATH
+INFO    2019-07-08 19:09:41,002 [main] base.BaseTest  - test execution completed

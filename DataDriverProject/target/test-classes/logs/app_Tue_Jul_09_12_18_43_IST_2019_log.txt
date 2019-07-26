@@ -1,0 +1,16 @@
+INFO    2019-07-09 12:18:43,075 [main] base.BaseTest  - config file loaded
+INFO    2019-07-09 12:18:43,078 [main] base.BaseTest  - OR file loaded
+INFO    2019-07-09 12:18:47,951 [main] base.BaseTest  - chrome browser launched
+INFO    2019-07-09 12:18:54,089 [main] base.BaseTest  - navigating to ---http://10.20.0.58:8005/ProductUI/#/login
+INFO    2019-07-09 12:18:54,296 [main] base.BaseTest  - typing in element ------id_XPATHentered value ------guest
+INFO    2019-07-09 12:18:54,297 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[2]/input
+INFO    2019-07-09 12:18:54,397 [main] base.BaseTest  - typing in element ------pwd_XPATHentered value ------guest
+INFO    2019-07-09 12:18:54,397 [main] base.BaseTest  - clicking on ---/html/body/entry/login/div/div[2]/div/form/div[3]/input
+INFO    2019-07-09 12:18:54,523 [main] base.BaseTest  - clicking on element------loginbutton_ID
+INFO    2019-07-09 12:18:54,523 [main] base.BaseTest  - clicking on ---login-button
+INFO    2019-07-09 12:19:04,725 [main] base.BaseTest  - clicking on element------view_CLASS
+INFO    2019-07-09 12:19:06,916 [main] base.BaseTest  - clicking on element------search_XPATH
+INFO    2019-07-09 12:19:06,917 [main] base.BaseTest  - clicked on search
+INFO    2019-07-09 12:19:17,077 [main] base.BaseTest  - clicking on element------TimeFilter_XPATH
+INFO    2019-07-09 12:19:20,638 [main] base.BaseTest  - clicking on element------Done_XPATH
+INFO    2019-07-09 12:19:40,908 [main] base.BaseTest  - test execution completed
